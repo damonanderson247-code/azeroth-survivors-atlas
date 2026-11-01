@@ -1,0 +1,1 @@
+The Build Atlas is maintained through GitHub. Future runs are reviewed and published through data/site.json and data/updates.json.
