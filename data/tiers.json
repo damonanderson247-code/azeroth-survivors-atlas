@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-11-01",
+  "methodology": "Editorial working rankings, not a DPS simulation. Unknown builds remain unranked until comparable standard Naxx tests. Separate real-world boss uptime from theoretical damage.",
+  "ratings": {
+    "Hunter/Marksmanship": {
+      "practical": "S",
+      "potential": "S",
+      "confidence": "provisional",
+      "note": "Current leading candidate from field testing; long-range boss uptime and slowed-boss PvP synergy. Not a controlled cross-class victory."
+    },
+    "Priest/Shadow": {
+      "practical": "A",
+      "potential": "A",
+      "confidence": "assisted",
+      "note": "Recorded Naxx victory with 5× clock and no-dodge assistance. Encouraging damage output, not a comparable standard run."
+    }
+  }
+}
