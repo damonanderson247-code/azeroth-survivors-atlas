@@ -1,6 +1,33 @@
 {
   "schema_version": 1,
   "updated_at": "2026-11-01",
-  "runs": [],
-  "route_overrides": {}
+  "runs": [
+    {
+      "id": "2026-11-01-paladin-recorder-211652",
+      "date": "2026-11-01",
+      "class": "Paladin",
+      "spec": "Protection (provisional; not independently verified)",
+      "boss": "Naxxramas",
+      "outcome": "Outcome unconfirmed — recording stopped",
+      "game_time": "20:58 (last capture)",
+      "speed_multiplier": 1,
+      "assisted": false,
+      "conditions": "Recorder duration 10:03 real time; 20:58 displayed game clock. Clock speed and possible modifications unverified. Do not compare against standard 1× until verified.",
+      "total_damage_m": 190.22,
+      "avg_dps_k": 151.2,
+      "final_boss_dps_k": 34.1,
+      "summary": "Recorded Paladin run through displayed 20:58. Last captured boss fight showed ~34.1K average DPS, much lower than full-run 151.2K average; encounter identity and outcome not confirmed. Do not treat this as a Naxx clear. Captured 62 choice screens and 258 meter frames.",
+      "source": "AZS_Run_20261101_211652.zip (session.json, meter.csv, events.jsonl)"
+    }
+  ],
+  "route_overrides": {
+    "Paladin/Protection": {
+      "field_evidence_append": [
+        {
+          "tag": "New recorded run, outcome unconfirmed (2026-11-01)",
+          "text": "Paladin recorder reached displayed 20:58: 190.22M full-run damage / 151.2K average DPS, versus 34.1K last captured boss average. Capture ended without a confirmed victory/death; elapsed real time ~10 minutes and game-clock speed remains unverified. This is not a validated normal-speed Naxx clear."
+        }
+      ]
+    }
+  }
 }
