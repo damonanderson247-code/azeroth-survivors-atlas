@@ -18,6 +18,45 @@
       "final_boss_dps_k": 34.1,
       "summary": "Recorded Paladin run through displayed 20:58. Last captured boss fight showed ~34.1K average DPS, much lower than full-run 151.2K average; encounter identity and outcome not confirmed. Do not treat this as a Naxx clear. Captured 62 choice screens and 258 meter frames.",
       "source": "AZS_Run_20261101_211652.zip (session.json, meter.csv, events.jsonl)"
+    },
+    {
+      "id": "2026-11-01-fury-warrior-212751",
+      "date": "2026-11-01",
+      "class": "Warrior",
+      "spec": "Fury",
+      "boss": "Naxxramas",
+      "outcome": "Victory",
+      "game_time": "20:31",
+      "speed_multiplier": 1,
+      "assisted": false,
+      "conditions": "Victory and meter screen verified. Recorder began at 21:27:51, gameplay selections start around 21:48, last screen 21:57; clock-speed/assistance conditions not independently verified, so do not classify as standard 1× benchmark.",
+      "total_damage_m": 697.03,
+      "avg_dps_k": 566.2,
+      "final_boss_dps_k": 68.1,
+      "summary": "Fury victory, level 65. Whirlwind 239.78M, Rampage 178.07M, Flurry 139.28M and Deep Wounds 113.61M full-run. Deep Wounds led final boss with 703.4K / 2.10M (~33%). Whirlwind 507.9K, Flurry 290.4K, Rampage 240.4K. Supports testing Arms Deep Wounds synergy within Fury; not proof of optimal talent allocation.",
+      "damage_breakdown": [
+        {
+          "name": "Whirlwind",
+          "damage_m": 239.78
+        },
+        {
+          "name": "Rampage",
+          "damage_m": 178.07
+        },
+        {
+          "name": "Flurry",
+          "damage_m": 139.28
+        },
+        {
+          "name": "Deep Wounds",
+          "damage_m": 113.61
+        },
+        {
+          "name": "Bloodthirst",
+          "damage_m": 7.54
+        }
+      ],
+      "source": "AZS_Run_20261101_212751.zip, final meter screenshot meter_0313_215730.jpg"
     }
   ],
   "route_overrides": {
@@ -26,6 +65,14 @@
         {
           "tag": "New recorded run, outcome unconfirmed (2026-11-01)",
           "text": "Paladin recorder reached displayed 20:58: 190.22M full-run damage / 151.2K average DPS, versus 34.1K last captured boss average. Capture ended without a confirmed victory/death; elapsed real time ~10 minutes and game-clock speed remains unverified. This is not a validated normal-speed Naxx clear."
+        }
+      ]
+    },
+    "Warrior/Fury": {
+      "field_evidence_append": [
+        {
+          "tag": "Recorded Fury Naxx victory · 2026-11-01",
+          "text": "Level 65 victory screen at 20:31; 697.03M full-run, 566.2K average DPS, 68.1K final-boss DPS. Deep Wounds provided 113.61M / ~16% of full-run damage and 703.4K / ~33% of the final boss fight. Current builds should prioritize tested Whirlwind/Rampage/Flurry/Deep Wounds synergy. Acceleration conditions unverified; no cross-run DPS claims."
         }
       ]
     }
